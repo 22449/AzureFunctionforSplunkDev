@@ -39,5 +39,5 @@ jobs:
         app-name: 'mb-o365logs-prd-01-func'
         slot-name: 'production'
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_16f6e8b093674b57a0ca74967faca518 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1c3d2bcd75544366b92417311ac60071 }}
   
