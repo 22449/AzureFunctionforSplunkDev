@@ -41,7 +41,7 @@
       "type": "Int"
     },
     "appInsightsLocation": {
-      "defaultValue": "West Europe",
+      "defaultValue": "North Europe",
       "allowedValues": [
         "Australia East",
         "Canada Central",
@@ -61,7 +61,7 @@
       "type": "String"
     },
     "appInsightsName": {
-      "defaultValue": "mb-o365logs-prd-01-appi",
+      "defaultValue": "appInsightsInstance",
       "type": "String"
     },
     "githubRepoURL": {
@@ -77,7 +77,7 @@
       "type": "String"
     },
     "inputHubNameActivityLogs": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "insights-operational-logs",
       "type": "String"
     },
     "consumerGroupNameActivityLog": {
@@ -85,7 +85,7 @@
       "type": "String"
     },
     "inputHubNameDiagnosticLogs": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "insights-logs-diagnostics",
       "type": "String"
     },
     "logIncomingBatches": {
@@ -97,7 +97,7 @@
       "type": "String"
     },
     "inputHubNameMetrics": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "insights-metrics-pt1m",
       "type": "String"
     },
     "consumerGroupNameMetrics": {
@@ -105,7 +105,7 @@
       "type": "String"
     },
     "inputHubNameWAD": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "insights-telemetry-wad",
       "type": "String"
     },
     "consumerGroupNameWAD": {
@@ -113,7 +113,7 @@
       "type": "String"
     },
     "inputHubNameLAD": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "insights-telemetry-lad",
       "type": "String"
     },
     "consumerGroupNameLAD": {
@@ -121,7 +121,7 @@
       "type": "String"
     },
     "inputHubNameFaults": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "transmission-faults",
       "type": "String"
     },
     "splunkToken": {
@@ -149,7 +149,7 @@
       }
     },
     "output-hub-name-proxy": {
-      "defaultValue": "mb-o365logs-prd-01-evh",
+      "defaultValue": "collector-to-proxy",
       "type": "String"
     }
   },
