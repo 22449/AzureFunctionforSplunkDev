@@ -41,7 +41,7 @@
       "type": "Int"
     },
     "appInsightsLocation": {
-      "defaultValue": "North Europe",
+      "defaultValue": "West Europe",
       "allowedValues": [
         "Australia East",
         "Canada Central",
@@ -61,7 +61,7 @@
       "type": "String"
     },
     "appInsightsName": {
-      "defaultValue": "appInsightsInstance",
+      "defaultValue": "mb-o365logs-prd-01-appi",
       "type": "String"
     },
     "githubRepoURL": {
@@ -77,7 +77,7 @@
       "type": "String"
     },
     "inputHubNameActivityLogs": {
-      "defaultValue": "insights-operational-logs",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     },
     "consumerGroupNameActivityLog": {
@@ -85,7 +85,7 @@
       "type": "String"
     },
     "inputHubNameDiagnosticLogs": {
-      "defaultValue": "insights-logs-diagnostics",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     },
     "logIncomingBatches": {
@@ -97,7 +97,7 @@
       "type": "String"
     },
     "inputHubNameMetrics": {
-      "defaultValue": "insights-metrics-pt1m",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     },
     "consumerGroupNameMetrics": {
@@ -105,7 +105,7 @@
       "type": "String"
     },
     "inputHubNameWAD": {
-      "defaultValue": "insights-telemetry-wad",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     },
     "consumerGroupNameWAD": {
@@ -113,7 +113,7 @@
       "type": "String"
     },
     "inputHubNameLAD": {
-      "defaultValue": "insights-telemetry-lad",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     },
     "consumerGroupNameLAD": {
@@ -121,7 +121,7 @@
       "type": "String"
     },
     "inputHubNameFaults": {
-      "defaultValue": "transmission-faults",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     },
     "splunkToken": {
@@ -149,7 +149,7 @@
       }
     },
     "output-hub-name-proxy": {
-      "defaultValue": "collector-to-proxy",
+      "defaultValue": "mb-o365logs-prd-01-evh",
       "type": "String"
     }
   },
