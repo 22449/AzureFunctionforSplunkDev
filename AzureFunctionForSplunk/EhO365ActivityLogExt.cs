@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace AzureFunctionForSplunk
 {
-    public static class EhO365ActivityLogExt
+    public static class mb-o365logs-prd-01-af
     {
-        [FunctionName("EhO365ActivityLogExt")]
+        [FunctionName("mb-o365logs-prd-01-af")]
         public static async Task Run(
             [EventHubTrigger("%input-hub-name-activity-log%", Connection = "hubConnection", ConsumerGroup = "%consumer-group-activity-log%")] string[] messages,
             [EventHub("%output-hub-name-proxy%", Connection = "outputHubConnection")] IAsyncCollector<string> outputEvents,
